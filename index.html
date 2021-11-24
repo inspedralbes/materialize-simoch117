@@ -25,15 +25,16 @@
                     <div class="card-image">
                         <img class="responsive-img" src="img/img1.jpg">
                       <span class="card-title"></span>
-                      <a class="btn-floating halfway-fab waves-effect waves-light red" href="#modal1"><i class="material-icons">+</i></a>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">+</i></a>
 
                       <div id="modal1" class="modal">
                         <div class="modal-content">
-                          <h4>Modal Header</h4>
-                          <p>A bunch of text</p>
+                          <h4>Las Pruebas</h4>
+                          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos explicabo, aspernatur a laboriosam deleniti odit quidem blanditiis quia asperiores iste iusto minima est labore corrupti, totam vitae ad placeat obcaecati?
+                          </p>
                         </div>
                         <div class="modal-footer">
-                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Atras</a>
                         </div>
                       </div>
 
@@ -43,18 +44,32 @@
                     </div>
                 </div>
             </div>
+
             <div class="col s6 m3 l3">
                 <div class="card">
                     <div class="card-image">
                         <img class="responsive-img" src="img/img2.jpg">
                       <span class="card-title"></span>
-                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">+</i></a>
+
+                      <div id="modal1" class="modal">
+                        <div class="modal-content">
+                          <h4>El corredor</h4>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos explicabo, aspernatur a laboriosam deleniti odit quidem blanditiis quia asperiores iste iusto minima est labore corrupti, totam vitae ad placeat obcaecati?
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Atras</a>
+                        </div>
+                      </div>
+
                     </div>
                     <div class="card-content">
                       <p>El corredor</p>
                     </div>
                 </div>
             </div>
+
             <div class="col s6 m3 l3">
                 <div class="card">
                     <div class="card-image">
@@ -67,6 +82,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col s6 m3 l3">
                 <div class="card">
                     <div class="card-image">
@@ -92,6 +108,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col s6 m3 l3">
                 <div class="card">
                     <div class="card-image">
@@ -104,6 +121,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col s6 m3 l3">
                 <div class="card">
                     <div class="card-image">
@@ -116,6 +134,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col s6 m3 l3">
                 <div class="card">
                     <div class="card-image">
@@ -133,11 +152,12 @@
         <br>
     </div>
     <script>
+      
       document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.modal');
-      var instances = M.Modal.init(elems, options);
+      var instances = M.Modal.init(elems);
       });
     </script>
-    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
